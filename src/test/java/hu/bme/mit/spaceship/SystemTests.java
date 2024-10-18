@@ -55,6 +55,7 @@ class SystemTests {
         }
     }
 
+
     private static Stream<Arguments> provideTestFilePaths() {
         PathMatcher matcher = FileSystems.getDefault().getPathMatcher("glob:**/input*");
 
